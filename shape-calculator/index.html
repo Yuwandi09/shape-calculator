@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Modern Button Info Page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <div class="container">
+
+    <h2>Select Category</h2>
+
+    <!-- Main Buttons -->
+    <button onclick="show2D()">2D Shapes</button>
+    <button onclick="show3D()">3D Shapes</button>
+
+    <!-- 2D Buttons -->
+    <div id="twoD" class="hidden">
+        <h3>2D Shapes</h3>
+        <button onclick="showShape('triangle')">Triangle</button>
+        <button onclick="showShape('square')">Square</button>
+        <button onclick="showShape('circle')">Circle</button>
+        <button onclick="showShape('rectangle')">Rectangle</button>
+        <button onclick="showShape('eclipse')">Eclipse</button>
+        <button onclick="showShape('trapezoid')">Trapezoid</button>
+    </div>
+
+    <!-- 3D Buttons -->
+    <div id="threeD" class="hidden">
+        <h3>3D Shapes</h3>
+        <button onclick="showShape('cube')">Cube</button>
+        <button onclick="showShape('cone')">Cone</button>
+        <button onclick="showShape('cuboid')">Cuboid</button>
+        <button onclick="showShape('cylinder')">Cylinder</button>
+        <button onclick="showShape('pyramid')">Pyramid</button>
+        <button onclick="showShape('sphere')">Sphere</button>
+    </div>
+<div id="display">🚀</div>
+</div> 
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
